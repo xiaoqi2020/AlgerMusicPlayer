@@ -74,6 +74,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
+            dist/*.hap
             dist/*.dmg
             dist/*.exe
             dist/*.deb
